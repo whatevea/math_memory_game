@@ -1,0 +1,9 @@
+/*setting in middle*/
+body {
+  background-color: #7A918D;
+ }
+/*using font*/
+@font-face {
+    font-family: coc-font;
+    src: url('assets/coc-font.ttf');
+}

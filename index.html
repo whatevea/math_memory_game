@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Last Number Memory Game</title>
+<script src="./js/phaser.js"></script>
+<link rel="preload" as="font" href="assets/coc-font.ttf" type="font/ttf"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+</body>
+
+ <script src="./js/Cards.js"></script>
+ <script src="./js/variables.js"></script>
+ <script src="./js/modules.js"></script>
+ <script src="./js/Scene2.js"></script>
+ <script src="./js/Scene1.js"></script>
+ <script src="./js/Scene3.js"></script>
+
+<script type="text/javascript">
+config={
+	height:_data.gameHeight,
+	width:_data.gameWidth,
+	scale:{mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTER_BOTH,},
+	backgroundColor:"#DCEED1",
+	type:Phaser.CANVAS,
+	pixelArt:true,
+	scene:[Scene1,Scene2,Scene3]
+	};
+
+var game= new Phaser.Game(config);
+
+
+</script>
+</html>
